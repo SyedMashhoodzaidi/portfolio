@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    background-color: #1e1b4b;
+    // make the scrolling behaviour smooth 
+    scroll-behavior: smooth;
+    // set the below line equal to the height of the navBar so that each section can be navigated correctly without wrong padding
+    scroll-padding-top: 66px;
+}
